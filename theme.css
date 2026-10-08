@@ -138,4 +138,12 @@ a.next:hover { color: var(--cream); background: #3d2618; }
 .jp { font-family: var(--font-serif); }
 .stayname { margin: 18px 0 0; font-family: var(--font-serif); font-weight: 600; font-size: 24px; line-height: 1.4; }
 
+/* daily weather & what to wear */
+.wx { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 18px; align-items: center; margin-top: 24px; padding: 16px 18px; border: 1px solid var(--rule); border-radius: 6px; }
+.wx-temp { font-family: var(--font-title); font-size: 34px; line-height: 1; color: var(--maple); white-space: nowrap; }
+.wx-temp small { font-size: 20px; color: var(--ink-soft); }
+.wx-where { grid-column: 1 / -1; margin: 0 0 6px; padding-bottom: 8px; border-bottom: 1px solid var(--rule); font-size: 14px; line-height: 1.6; color: var(--ink-soft); }
+.wx-wear { margin: 0; font-size: 16px; line-height: 1.75; }
+.wx-wear b { font-weight: 500; color: var(--maple); }
+
 .foot { padding-block: 40px 56px; text-align: center; font-size: 13px; color: var(--ink-soft); }
